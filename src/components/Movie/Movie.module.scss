@@ -1,0 +1,32 @@
+.component {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 24px;
+}
+
+.loading {
+  margin: 16px auto;
+}
+
+.poster {
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.contentRow {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 8px;
+
+  span:first-child {
+    color: #785a85;
+  }
+}

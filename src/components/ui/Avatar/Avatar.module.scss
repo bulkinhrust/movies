@@ -1,0 +1,18 @@
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a2a2a2;
+  color: #606060;
+  overflow: hidden;
+  cursor: pointer;
+
+  span {
+    font-size: 40px;
+  }
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}

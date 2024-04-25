@@ -1,0 +1,42 @@
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  color: var(--main-light);
+  cursor: pointer;
+  transition: background-color ease-in 0.1s;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+
+  &:hover {
+    font-variation-settings: 'FILL' 1;
+  }
+}
+
+.icon {
+  padding: 4px;
+}
+
+.fill {
+  font-variation-settings: 'FILL' 1;
+  color: var(--main-accent);
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.hoverFill {
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #a2a2a225;
+  }
+}
+
+.hoverUnderline {
+  &:hover {
+    border-bottom: 1px solid var(--main-accent);
+  }
+}

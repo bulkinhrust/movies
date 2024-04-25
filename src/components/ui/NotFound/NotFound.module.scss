@@ -1,0 +1,16 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: auto;
+
+  span:first-child {
+    font-size: 80px;
+    font-weight: 700;
+  }
+
+  span:last-child {
+    font-size: 20px;
+  }
+}
